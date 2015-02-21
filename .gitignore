@@ -1,0 +1,6 @@
+cache/
+output/
+pelican.pid
+*.pyc
+srv.pid
+Makefile
