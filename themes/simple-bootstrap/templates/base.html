@@ -42,7 +42,9 @@
                 {% for p in PAGES %}
                     <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
                 {% endfor %}
-                    <li{% if author or tag %} class="active"{% endif %}{% block archclass %}{{ ARCHCLASS }}{% endblock archclass %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+                    <li{% if author or tag %} class="active"{% endif %}{% block
+						archclass %}{{ ARCHCLASS }}{% endblock archclass %}><a
+							href="{{ SITEURL }}/archives.html">Arquivos</a></li>
                 </ul>
                 <h3 class="text-muted"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h3>
 				<h2 class="text-muted">{{ SITESUBTITLE }}</h2>
@@ -60,5 +62,10 @@
         </div><!-- container -->
 		{% include 'analytics.html' %}
                 {% include 'piwik.html' %}
+				<a href="https://github.com/camponez/tech_blog"><img style="position: absolute;
+					top: 0; right: 0; border: 0;"
+					src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
+					alt="Fork me on GitHub"
+					data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
     </body>
 </html>

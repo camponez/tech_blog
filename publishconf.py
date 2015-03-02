@@ -18,7 +18,15 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+# Plugins
+PLUGIN_PATHS = ['plugins']
+
+PLUGINS = [
+        'pelican_youtube',
+        'disqus_static'
+        ]
+
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = u'techeduardoelias'
+GOOGLE_ANALYTICS = "UA-2271271-13"
