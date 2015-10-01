@@ -128,7 +128,7 @@ Ela funciona quando se criptografa um conteúdo com uma chave pública e
 uma vez criptografado é necessário ter a chave privada para descriptografar
 e conseguir acessar o conteúdo.
 
-A chave na criptografia assimétrica é muito grande. Impossíver de ser memorizada
+A chave na criptografia assimétrica é muito grande. Impossível de ser memorizada
 como no exemplo da chave simétrica. Por isso ela costuma ficar em um arquivo que é
 protegido por senha (usando a criptografia assimétrica).
 
@@ -159,9 +159,9 @@ suficiente.
 
  Não confundir com `NSA`_ :)
 
-Aqui você pode escolher o tamanho da chave. Quanto maior melhor ( máximo é 4096 )
-precisa ser a maior chave possível? Não. Mas nós queremos que seja.
-As outras opções são: 1024 e 2048.::
+Aqui você pode escolher o tamanho da chave. Quanto maior melhor ( máximo é 4096
+).  Precisa ser a maior chave possível? Não. Mas nós queremos que seja.  As
+outras opções são: 1024 e 2048.::
 
  RSA keys may be between 1024 and 4096 bits long.
  What keysize do you want? (2048) 4096
@@ -177,8 +177,9 @@ enviando a chave dele pra todo mundo, ou confirmando se tal chave é a chave
 pública dele. Ele simplesmente publica em um servidor de chaves públicas e assim
 todos tem acesso.
 
-Pelo mesmo motivo que ele não tem como avisar todo mundo qual sua chave, ele
-também não tem como avisar quando ele parar de usar a chave.
+E é ai que entra a utilidade da validade da chave. A pessoa não tem como avisar
+todo mundo qual sua chave, ele também não tem como avisar quando ele parar de
+usar a chave.
 
 Alguém pode ter vários motivos para querer parar de usar uma chave:
 
@@ -224,9 +225,9 @@ a pessoa não conseguirá descriptograr aquilo que foi criptografado com sua cha
  You need a Passphrase to protect your secret key.
 
 
-Essa é outra diferença da criptografia simétrica: com ela se tiver
-o arquivo e a senha é possível acessar o conteúdo. Já com a criptografia
-assimétrica com a chave criptografada, é necessário ter o arquivo criptografado,
+Essa é outra diferença da criptografia simétrica (se tiver
+o arquivo e a senha é possível acessar o conteúdo), com a criptografia
+assimétrica a chave privada está criptografada, é necessário ter o arquivo criptografado,
 a chave privada e a senha dessa chave privada para acessar o conteúdo. Precisar de
 mais partes torna esse método mais seguro.::
 
