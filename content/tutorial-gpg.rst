@@ -432,7 +432,7 @@ que ela vai usar sejam chaves assinadas por pessoas que ela conhece e confia.
 Se você não é tão paranoico assim, simplesmente baixe a chave que está no site e
 seja feliz! :)
 
-Como já vimos uma chave pública é uma string gigante, e como qualquer mensage,
+Como já vimos uma chave pública é uma string gigante, e como qualquer mensagem,
 pode ser assinada do mesmo jeito.
 
 6) Publicando sua chave pública
